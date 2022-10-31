@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-banner{
+    height: 50vh;
+    background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8)) , url(../images/home\ delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center bottom;
+}
+.about-txt h1{
+    font-size: 4em;
+    opacity: 0.8;
+    color: white;
+    padding-top: 3em !important;
+
+}
+.about-us{
+    background-color: #eeeeee;
+}
+.about-us-head h3{
+    font-weight: bold;
+    color: #ff0800;
+    text-align: left !important;
+}
+.about-us-head p{
+    line-height: 1.5; 
+    font-size: 1em; 
+    text-align: left;
+    font-size: 1em;
+}
+.about-us-img{
+    width: auto;
+}
+.our-mission{
+   background-color: #eeeeee;
+}
+.our-team{
+   background-color: #eeeeee;
+}
+.our-team-head h3{
+    color: #ff0800;
+    font-weight: bold;
+}
+.t-1:hover{
+    transition: 1.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.t-2:hover{
+    transition: 1.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.t-3:hover{
+    transition: 1.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.t-4:hover{
+    transition: 1.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.t-5:hover{
+    transition: 1.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.t-6:hover{
+    transition: 1.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .loader-container img {
+    width: 18rem;
+  }
+
+  .loader-container.fade-out {
+    top: -110%;
+    opacity: 0;
+  }
+
+
+
+  .footer-part{
+    
+    background: linear-gradient(to right, rgba(0,0,0,.8), rgba(241,33,33,.6)) , url(../images/menu\ banner\ img.jpg);
+    background-size: cover;
+
+    color: white;
+  }
+  .quick-link ul li{
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .quick-link ul li a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .quick-link ul li a:hover{
+    color: orange;
+  }
+  .connect a{
+    color: white;
+  }
+  .connect a:hover{
+    color: orange;
+  }
+  .input-group-text:hover{
+    background-color: orangered !important;
+    outline: none !important;
+    border: none !important;
+    color: white;
+  }
+
+
+
+
+@media screen and (max-width:1024px){
+    .about-txt h1{
+        padding-top: 3em !important;
+        font-size: 3.5em;
+    }
+    .about-banner{
+        height: 55vh;
+    }
+}  
+
+
+
+
+@media screen and (max-width:768px){
+    .about-txt{
+        padding-top: 1.5rem !important;
+        font-size: 1.5rem;
+    }
+    .about-txt h1{
+        padding-top: 3.5em !important;
+        font-size: 2.3em;
+    }
+    .about-banner{
+        height: 40vh;
+    }
+}  
+
+  
+
+
+@media screen and (max-width:480px){
+    .about-us-img{
+        width: auto;
+    }
+    .about-txt h1{
+        padding-top: 3.5em !important;
+        font-size: 2em;
+    }
+
+    .t-1:hover{
+        transition: 1.5s ease-in-out;
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+    .t-2:hover{
+        transition: 1.5s ease-in-out;
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+    .t-3:hover{
+        transition: 1.5s ease-in-out;
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+    .t-4:hover{
+        transition: 1.5s ease-in-out;
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+    .t-5:hover{
+        transition: 1.5s ease-in-out;
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+    .t-6:hover{
+        transition: 1.5s ease-in-out;
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+}
